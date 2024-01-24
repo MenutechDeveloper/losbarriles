@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/heladeria.css">
+  <title>Los Barriles Ice Cream</title>
+</head>
+<body>
+    <nav>
+        <div class="logo-container">
+          <img src="./assets/img/LOS BARRILES.png">
+        </div>
+        <div class="contact-info">
+          <p>Call us: <a href="tel:14084012061">1 408-401-2061</a></p>
+        </div>
+        <div class="mobile-menu">
+          <div class="hamburger-menu" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#inicio">Home</a></li>
+            <li><a href="#sobre-nosotros">About us</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#galeria">Gallery</a></li>
+            <li><a href="#contacto">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+    
+      <!-- Resto del código... -->
+    
+      <script>
+        function toggleMenu() {
+          const navLinks = document.querySelector('.nav-links');
+          navLinks.classList.toggle('active');
+        }
+      </script>
+
+  
+  <iframe id="menu" src="https://drive.google.com/file/d/1b_DsruACq4AKNrLH8MGOTIGRCiqo1URa/preview" width="100%" height="900px" ></iframe>
+
+ 
+
+  <footer>
+    <div id="brand"> </div>
+<script>
+    var y = new Date().getFullYear();
+    const branding = document.getElementById("brand");
+    
+    branding.innerHTML = `<p>Copyright © Made by <a href="https://menutech.xyz/" style="color:orange; text-decoration:none;" target="_blank">Menutech.xyz</a> ${y} </p>`;
+</script>
+
+<ul class="social-icons">
+  <li><a href="https://www.facebook.com/profile.php?id=100063484845817&mibextid=LQQJ4d" target="_blank"><img id="fb" src="./assets/img/fb.png" alt="Facebook"></a></li>
+  <li><a href="https://wa.me/+014084012061" target="_blank"><img id="wa" src="./assets/img/whatsappi.png" alt="WhatsApp"></a></li>
+  <li><a href="https://www.instagram.com/los_barriles_ice_cream?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr" target="_blank"><img id="tik" src="./assets/img/insta.png" alt="TikTok"></a></li>
+</ul>
+    <button id="scroll-to-top">↑</button>
+  </footer>
+
+  <script>
+    document.getElementById('scroll-to-top').addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+</body>
+</html>
