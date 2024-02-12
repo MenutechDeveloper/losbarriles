@@ -528,6 +528,11 @@ body {
     opacity: 0.7; /* Cambia la opacidad al pasar el ratón sobre el icono */
   }
 
+#iconosnav{
+  width: 30px; /* Ajusta el tamaño según tus preferencias */
+    height: 30px;
+}
+
   #fb:hover{
     filter: none;
   }
