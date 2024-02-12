@@ -531,11 +531,13 @@ body {
 #iconosnav{
   width: 30px; /* Ajusta el tamaño según tus preferencias */
     height: 30px;
+  margin:0px;
 }
 
 .contact-info .social-icons{
-   width: 30px; /* Ajusta el tamaño según tus preferencias */
-    height: 30px;
+   width: 10px; /* Ajusta el tamaño según tus preferencias */
+    height: 10px;
+  margin:0px;
 }
 
   #fb:hover{
