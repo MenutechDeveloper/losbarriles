@@ -533,6 +533,11 @@ body {
     height: 30px;
 }
 
+.contact-info .social-icons{
+   width: 30px; /* Ajusta el tamaño según tus preferencias */
+    height: 30px;
+}
+
   #fb:hover{
     filter: none;
   }
