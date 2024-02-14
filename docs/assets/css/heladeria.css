@@ -528,11 +528,7 @@ body {
     opacity: 0.7; /* Cambia la opacidad al pasar el ratón sobre el icono */
   }
 
-#iconosnav{
-  width: 30px; /* Ajusta el tamaño según tus preferencias */
-    height: 30px;
-  margin:0px;
-}
+
 
 .contact-info .social-icons{
    width: 10px; /* Ajusta el tamaño según tus preferencias */
@@ -559,4 +555,26 @@ body {
 
 #menu{
     margin-top: 130px;
+  }
+
+#iconosnav{
+    width: 100%;
+    height:50px;
+      background: #E5017D;
+      margin: 0px;
+      top: 0;
+      left: 0;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      
+  }
+  #iconosnav .social-icons img{ 
+    width: 30px;
+    height: 30px;
+  }
+  .about{
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
   }
