@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/heladeria.css">
+  <title>Los Barriles Ice Cream</title>
+</head>
+<body>
+  <div style="background:#E5017D;" id="iconosnav">
+  <ul  class="social-icons">
+    <li><a href="https://www.facebook.com/profile.php?id=100063484845817&mibextid=LQQJ4d" target="_blank"><img id="fb" src="./assets/img/fb.png" alt="Facebook"></a></li>
+    <li><a href="https://wa.me/+014084012061" target="_blank"><img id="wa" src="./assets/img/whatsappi.png" alt="WhatsApp"></a></li>
+    <li><a href="https://www.instagram.com/los_barriles_ice_cream?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr" target="_blank"><img id="tik" src="./assets/img/insta.png" alt="TikTok"></a></li>
+  </ul>
+</div>
+    <nav>
+        <div class="logo-container">
+          <img src="./assets/img/LOS BARRILES.png">
+        </div>
+        <div class="contact-info">
+          <p>Llamanos: <a href="tel:14084012061">1 408-401-2061</a></p>
+        </div>
+        <div class="mobile-menu">
+          <div class="hamburger-menu" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-nosotros">Acerca de</a></li>
+            <li><a href="./menues.html">Menu</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#contacto">Contactanos</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+    
+      <!-- Resto del código... -->
+    
+      <script>
+        function toggleMenu() {
+          const navLinks = document.querySelector('.nav-links');
+          navLinks.classList.toggle('active');
+        }
+      </script>
+
+  <header class="hero" id="inicio">
+    <div class="overlay">
+      <h1>Los Barriles Ice Cream</h1>
+      <a href="https://www.menu-technology.com/ordering/restaurant/menu?company_uid=416e9323-42a7-4e88-9d3e-abc94f1adf5a&restaurant_uid=cd98708e-c259-4cfb-b9f4-34f5546213a6&facebook=true" target="_blank" class="order-button">Ver Menu</a>
+    </div>
+  </header>
+
+  <!--<div class="grilla">
+    <div class="item1"><img src="https://placehold.co/350x350" /></div>
+    <div class="item3"><img src="https://placehold.co/350x350" /></div>
+    <div class="item4"><button class="promoBoton">Boton</button></div>
+    <div class="item5"></div>
+  </div>-->
+
+  <!--<div class="img1"><img src="./assets/img/img1.png"/></div>-->
+
+<div class="bienvenida">
+  <img src="./assets/img/bienvenida.png"/>
+  <p>Bienvenidos a los barriles Ice Cream
+Ven a disfrutar de una rica nieve de garrafa, estilo México, hecha de manera artesanal, con ingredientes 100% naturales.
+Además de una gran variedad de antojitos mexicanos como, mangonadas, tostilocos, salchipapas, esquites y mucho más.
+Te esperamos!</p>
+  </div>
+
+  <div class="cartas"> 
+    <div class="card"  id="card1">
+      <video src="https://menutechdeveloper.github.io/bddImg/assets/img/barrilesv1.mp4" autoplay muted loop></video>
+      <div class="sombra"></div>
+      <h2>Dulces<br/>Delicias</h2>
+    </div>
+    <div class="card" id="card2">
+      <video src="https://menutechdeveloper.github.io/bddImg/assets/img/port2.mp4" autoplay muted loop></video>
+      <div class="sombra"></div>
+      <h2>Delicias<br/>Heladas</h2>
+    </div>
+    <div class="card" id="card3">
+      <video src="https://menutechdeveloper.github.io/bddImg/assets/img/barrilesv3.mp4" autoplay muted loop></video>
+      <div class="sombra"></div>
+      <h2>Sabores<br/>Frutales</h2>
+    </div>
+  </div>
+
+  <div id="sobre-nosotros" class="about">
+    <p>Los Barriles Ice Cream es un negocio familiar , donde nos enfocamos en mantener viva la tradición mexicana de las Nieves de garrafa, una nieve 100% natural y artesanal, estiló Jalisco, que te hará sentir que estás probando un pedacito de México.
+      Contamos con una variedad de más de 100 sabores, desde los clásicos como vainilla, limón, chocolate, fresa, hasta los más exóticos como guanábana, mamey, pitaya, tuna, arrayán … los cuales vamos rotando cada semana para que siempre tengas variedad y nuevos sabores a probar!</p>
+      <br/>
+      <p>Comenzamos en el 2014 vendiendo solamente nieves y a lo largo de los años hemos ido incorporando otros deliciosos antojitos mexicanos a nuestro menú, como los
+        salchipulpos, esquites, malteadas, mini pancakes, crepas, fresas con crema, biónicos, y muchos otros snacks!!!</p>
+      <br/>
+      <p>En Los Barriles Ice Cream somos abundantes y nos gusta darte tu orden bien servida y siempre usar los mejores ingredientes, gracias a esto hemos sido muy bien aceptados por nuestros clientes de San Jose y de toda el área de la bahía!</p>
+      <br/>
+      <p>También contamos con servicio para cualquier tipo de evento, fiestas infantiles, quinceañeras, bodas, festivales, empresas, etc.</p>
+      <br/>
+      <p>Así que si aún no nos conoces, te invitamos a visitar nuestra lonchera y próximamente nuestro local, te va a encantar!!!</p>
+  </div>
+
+  <div class="banner"><img src="./assets/img/bannerice.jpg"/></div>
+
+  <!--<section class="about-us" id="sobre-nosotros">
+    <div class="container">
+      <h2>Sobre nosotros</h2>
+      <p>Paletas y helados de la mejor calidad, tenemos chascafrutas aguascalientes, sodas italianas, frappes y las ya famosas perlas explisivas entre otras cosas.</p>
+      
+    </div>
+  </section>-->
+
+  <div class="follow">
+      <div class="colum1">
+        <h2>Síguenos en nuestras redes sociales.</h2>
+        <p>conoce las promociones que tenemos mes tras mes,<br/>
+          o el lanzamiento de nuevos productos en el menú</p>
+
+
+            <ul class="social-icons">
+              <li><a href="https://www.facebook.com/profile.php?id=100063484845817&mibextid=LQQJ4d" target="_blank"><img id="fb" src="./assets/img/fb.png" alt="Facebook"></a></li>
+              <li><a href="https://wa.me/+014084012061" target="_blank"><img id="wa" src="./assets/img/whatsappi.png" alt="WhatsApp"></a></li>
+              <li><a href="https://www.instagram.com/los_barriles_ice_cream?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr" target="_blank"><img id="tik" src="./assets/img/insta.png" alt="TikTok"></a></li>
+            </ul>
+
+
+      </div>
+      <div class="colum2">
+        <img src="./assets/img/ins.png"/>
+      </div>
+  </div>
+
+  
+
+
+  <section class="gallery" id="galeria">
+    <div class="container">
+      <h2>Galería</h2>
+      <div class="gallery-grid">
+        <img src="./assets/img/bar1.png" alt="Galería 1">
+        <img src="./assets/img/bar2.png" alt="Galería 2">
+        <img src="./assets/img/bar3.png" alt="Galería 3">
+        <img src="./assets/img/bar4.png" alt="Galería 4">
+        <img src="./assets/img/bar5.png" alt="Galería 5">
+        <img src="./assets/img/bar6.png" alt="Galería 6">
+        <img src="./assets/img/bar7.png" alt="Galería 7">
+        <img src="./assets/img/bar8.png" alt="Galería 8">
+        <img src="./assets/img/bar9.png" alt="Galería 9">
+        <img src="./assets/img/bar10.png" alt="Galería 10">
+        <img src="./assets/img/bar11.png" alt="Galería 11">
+        <img src="./assets/img/bar12.png" alt="Galería 12">
+      </div>
+    </div>
+  </section>
+
+  <section class="order-online" id="orden-en-linea">
+    <div class="container">
+      <h2 style="color: #E5017D; font-family: helado;">Ver el MENÚ y ordenar ahora</h2>
+      <p>¡Disfruta nuestro menú desde la comodidad de tu hogar! Realiza tu pedido ahora.</p>
+      <a href="https://www.menu-technology.com/ordering/restaurant/menu?company_uid=416e9323-42a7-4e88-9d3e-abc94f1adf5a&restaurant_uid=cd98708e-c259-4cfb-b9f4-34f5546213a6&facebook=true" target="_blank" class="order-button">See MENU & Order Now</a>
+    </div>
+  </section>
+
+  <section class="contact" id="contacto">
+    <div class="container">
+      <h2 style="color: #E5017D; font-family: helado;">Contactanos</h2>
+      <p>Telefono: <a style="text-decoration:none; color:#000;" href="tel:14084012061">1 408-401-2061</a></p>
+      <p>1642 Mabury Rd San Jose Ca 95133</p>
+    </div>
+  </section>
+
+  <section class="facebook-video">
+    <div class="container">
+      <h2 style="color: #E5017D; font-family: helado;">Visitanos</h2>
+      <div class="mapa">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12684.116132640595!2d-121.870903!3d37.3654899!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcd368120f6eb%3A0xd6aee4b8289c20d1!2sLos%20Barriles%20Ice%20Cream!5e0!3m2!1sen!2smx!4v1706006014685!5m2!1sen!2smx" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div id="brand"> </div>
+<script>
+    var y = new Date().getFullYear();
+    const branding = document.getElementById("brand");
+    
+    branding.innerHTML = `<p>Copyright © Made by <a href="https://menutech.xyz/" style="color:orange; text-decoration:none;" target="_blank">Menutech.xyz</a> ${y} </p>`;
+</script>
+
+<ul class="social-icons">
+  <li><a href="https://www.facebook.com/profile.php?id=100063484845817&mibextid=LQQJ4d" target="_blank"><img id="fb" src="./assets/img/fb.png" alt="Facebook"></a></li>
+  <li><a href="https://wa.me/+014084012061" target="_blank"><img id="wa" src="./assets/img/whatsappi.png" alt="WhatsApp"></a></li>
+  <li><a href="https://www.instagram.com/los_barriles_ice_cream?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr" target="_blank"><img id="tik" src="./assets/img/insta.png" alt="TikTok"></a></li>
+</ul>
+    <button id="scroll-to-top">↑</button>
+  </footer>
+
+  <script>
+    document.getElementById('scroll-to-top').addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+</body>
+</html>
